@@ -1,0 +1,3 @@
+function mostrarMensaje(){
+    document.wrute
+}

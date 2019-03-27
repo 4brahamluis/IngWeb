@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="galvezsaldaña.js"></script>
+    <title>Homenaje A Quijote</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.png" alt="Logo Quijote">
+         <h1>PÁGINA DE HOMENAJE AL QUIJOTE</h1>
+        <nav>
+            <ul class="navigation">
+                <li :hover>
+                   <a href="index.html">Inicio</a> 
+                </li>
+                <li :hover>
+                    <a href="#Personaje">El Personaje</a>
+                </li>
+                <li :hover>
+                    <a href="#Sancho">Sancho</a>
+                </li>
+                <li :hover>
+                    <a href="#Epoca">La Época</a>
+                </li>
+                <li :hover>
+                    <a href="#Autor">El Autor</a>
+                </li>
+                <li :hover>
+                    <a href="#Contacto">Contacto</a>
+                </li>
+                <li :hover>
+                    <a href="#Encuesta">Encuesta</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+        <figure class="hero">
+            <img src="images/hero.png" alt="Quijote de la mancha">
+            <!--<figcaption>Quiero ser aunque sea esta vez, el Quijote que yo siempre soñe</figcaption>-->
+        </figure>
+<div class="content">
+    <div id="Personaje">
+        <p>Personsaje</p>
+        <p >
+                Don Quijote era un viejo que se llamaba Alonso Quijano de 50 años que vivía en la Mancha y que era un gran apasionado de los libros de caballeros.
+                Un día por la culpa de tan poco comer, tan poco dormir y tanto leer, se le secó el cerebro y decidió que iba a ser caballero andante con el propósito de darle su merecido a los que se lo merecen, se cambió el nombre a Don Quijote.
+                Don quijote se enfundó unas armaduras de su bisabuelo y fue a buscar su caballo, tenía uno que era medio huesudo, se paso 3 días poniéndole y quitándole nombres hasta que un día decidió llamarlo Rocinante.
+                No solo le bastaban un caballo y armadura, también necesitaba una princesa a la que amar con locura, pero en La Mancha no había princesas. Recordó que cuando era joven se había enamorado de una chica llamada Aldonza Lorenzo. Aldonza Lorenzo no era una gran chica, era una campesina que venia desde el Toboso,tenia un bigotillo por encima del labio, unos brazos gruesos de marinero, un pelo recio como pajas de escoba y unas manos grandes como rastrillos.
+            </p>
+    </div>
+</div>
+<div id="Encuesta">
+    <form action="/" method="post">
+        <p>Datos Personales</p>
+        </label>Nombre:</label> 
+        <input type="text" id="nombre"><br>
+        <label>Apellido:</label>
+        <input type="text" id="apellido"><br>
+        <label>Email:</label>
+        <input type="email" id="mail" name="user_email"><br>
+        <label>Dirección:</label>
+        <input type="text" id="direccion" required><br>
+        <label>Localidad:</label>
+        <input type="text" id="localidad"><br>
+        <label>Provincia:</label>
+        <input type="text" id="provincia"><br>
+        <label>Codigo Postal:</label>
+        <input type="text" id="CP"><br>
+        <label>Telefono:</label>
+        <input type="tel" id="Telefono" placeholder="Ingrese su celular" required><br>
+        <input type="checkbox" class="chekbx" value="suscribir"checked/> ¿Desea recibir nuestro boletin?
+    </form>
+    <form action="">
+        <p>Datos de la Encuesta</p>
+        <label>Nivel de Estudios</label>
+            <select name="menu">
+                <option selected>--Selecciones una Opción--</option>
+                  <option value="1">Primaria</option>
+                  <option value="2">Secundaria</option>
+                  <option value="3">Preuniversitario</option>
+                  <option value="4">Grado Medio</option>
+                  <option value="5">Grado Superior</option>
+                  <option value="6">Doctorado</option>
+            </select>
+        <br> <label>¿Como conociste a Quijote?</label>
+            <select name="menu">
+                <option selected>--Selecciones una Opción--</option>
+                <option value="1">A través de un anuncio en prensa</option>
+                <option value="2">A través de un banner en internet</option>
+                <option value="3">Por un videojuego</option>
+                <option value="4">Me lo comento un amigo</option>
+                <option value="5">Algo me suena del colegio</option>
+                <option value="6">otro</option>
+                <option value="7">No recuerdo</option>
+            </select>
+        <br> <label> Se ha leido El Quijote</label>
+        <input type="radio" class="chekbx" value="broma" > Ni en broma  
+        <input type="radio"  class="chekbx" value="mitad" > Hasta la mitad
+        <input type="radio" class="chekbx" value="entero" > Entero
+        <input type="radio" class="chekbx" value="dosvec" > Mas de dos veces <br>
+        
+        <label>En qué categoria lo clasificaria?</label>
+        <input type="radio" class="chekbx" value="historia" > historia
+        <input type="radio" class="chekbx" value="historia" > Caballerías
+        <input type="radio" class="chekbx" value="historia" > Psico-Thriller
+        <input type="radio" class="chekbx" value="historia" > Costumbrismo
+        <input type="radio" class="chekbx" value="historia" > Crítica social
+    </form>
+
+<form>
+    <p>Resuma brevemente la historia del quijote</p>
+    <textarea name="escrquij" rows="10" cols="200" placeholder="Max 200 palabras"></textarea>
+
+</form>
+<div class="button">
+        <button type="submit">Enviar</button>
+    </div>
+</div>
+</body>
+</html>
